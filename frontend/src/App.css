@@ -7,9 +7,20 @@
 .app-header {
     background-color: #282c34;
     color: white;
-    padding: 10px 20px;
+    padding: 20px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.app-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.app-header a:hover {
+    color: #6e8efb;
 }
 
 .main-content {
@@ -34,6 +45,10 @@
 
 .task-input {
     flex-grow: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 .add-task-btn, .delete-task-btn {
